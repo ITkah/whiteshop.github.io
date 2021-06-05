@@ -1,0 +1,118 @@
+footer {
+    background: #313030;
+    .container {
+        padding: 25px 0;
+    }
+    .logo_footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 12px;
+    }
+    .sale_text {
+        font: 1.125rem "600";
+        margin-bottom: 20px;
+        color: #fff;
+        letter-spacing: 0.015em;
+        text-align: center;
+        display: block;
+    }
+    .subscribe_form {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 25px;
+        input {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 5px 10px;
+            background: #C4C4C4;
+            border-radius: 5px 0px 0px 5px;
+            letter-spacing: 0.015em;
+            font: 1rem "400";
+            color: #313030;
+            appearance: none;
+            outline: none;
+            border: none;
+        }
+        input::-webkit-input-placeholder {
+            font: 1rem "400";
+            color: #313030;
+        }
+        button {
+            padding: 7px 10px;
+            font: 1rem "600";
+            color: #fff;
+            appearance: none;
+            outline: none;
+            border: none;
+            border-radius: 0px 5px 5px 0px;
+            background: #000;
+        }
+    }
+    .social_wrap {
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 25px;
+        width: 310px;
+        a {
+            margin: 0 5px;
+        }
+        a:last-child {
+            margin-left: 0;
+        }
+        a:first-child {
+            margin-right: 0;
+        }
+    }
+    .phone_tel {
+        text-align: center;
+        display: block;
+        margin-bottom: 25px;
+        letter-spacing: 0.015em;
+        text-transform: uppercase;
+        color: #fff;
+        font: 1.875rem "600";
+    }
+    .footer_menu {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 5px;
+        margin-bottom: 30px;
+        a {
+            letter-spacing: 0.015em;
+            color: #fff;
+            font: 1rem "400";
+            white-space: nowrap;
+        }
+        li:nth-child(3) {
+            text-align: right;
+        }
+        li:last-child {
+            text-align: right;
+        }
+    }
+    .politika {
+        letter-spacing: 0.015em;
+        font: .87rem "400";
+        color: #FFFFFF;
+        margin-bottom: 35px;
+        display: block;
+    }
+    .name_footer {
+        font: 1rem "400";
+        letter-spacing: 0.015em;
+        color: #FFFFFF;
+        margin-bottom: 3px;
+    }
+    .text_footer {
+        max-width: 240px;
+        font: .8rem "400";
+        letter-spacing: 0.015em;
+        color: #FFFFFF;
+    }
+}

@@ -1,0 +1,38 @@
+.delivery {
+    margin-bottom: 20px;
+    background: rgba(249, 40, 40, 0.24);
+    .container {
+        padding: 25px 15px;
+    }
+    .delivery_wrap {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+        .delivery_item {
+            padding-left: 25px;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 10px;
+            .delivery_title {
+                position: relative;
+                color: #313030;
+                font: 1rem/19px "700";
+                svg {
+                    top: -2px;
+                    position: absolute;
+                    left: -28px;
+                }
+            }
+            .delivery_text {
+                font: 1rem/19px "400";
+                color: rgba(49, 48, 48, 0.78);
+                span {
+                    color: #000;
+                }
+                strong {
+                    color: #8e4955;
+                }
+            }
+        }
+    }
+}
