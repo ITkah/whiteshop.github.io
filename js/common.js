@@ -59,3 +59,24 @@ $(".items_color_wrap span").on("click", function() {
     $(".items_color_wrap span").removeClass("active_color");
     $(this).toggleClass("active_color");
 });
+
+$(".table_size_box").on("click", function() {
+    $('.table_size_box').removeClass("table_size_box_active");
+    $(this).addClass("table_size_box_active");
+});
+
+$('.popup-with-zoom-anim').magnificPopup({
+    type: 'inline',
+
+    fixedContentPos: false,
+    fixedBgPos: true,
+
+    overflowY: 'auto',
+
+    closeBtnInside: true,
+    preloader: false,
+
+    midClick: true,
+    removalDelay: 300,
+    mainClass: 'my-mfp-zoom-in'
+});
