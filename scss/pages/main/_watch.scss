@@ -1,0 +1,41 @@
+.watch {
+    &__filter {
+        display: flex;
+        width: 100%;
+        overflow-x: scroll;
+        list-style: none;
+        margin-bottom: 10px;
+    }
+
+    &__item {
+        min-width: fit-content;
+        margin: 0 0 10px 10px;
+
+        &:first-child {
+            margin-left: 20px;
+        }
+    }
+
+    &__btn {
+        background-color: #EFEFEF;
+        border-radius: 3px;
+        border: 0.5px solid transparent;
+        color: #616161;
+        font-size: 12px;
+        padding: 6px 27px;
+
+        &.active {
+            color: #B4867D;
+            border: 0.5px solid #B4867D;
+            background: rgba(180, 134, 125, 0.09);
+        }
+    }
+
+    &__list {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+}
